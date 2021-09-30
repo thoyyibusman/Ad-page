@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+
+header {
+	padding-top: 30px;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+header h1 {
+	text-align: center;
+}
+header h1 img {
+	display: inline-block;
+}
+header nav.middle {
+
+}
+header nav.middle ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav.middle ul li {
+	margin-left: 30px;
+}
+header nav.middle ul li a {
+	color: gray;
+}
+header nav.right {
+
+}
+header nav.right ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav.right ul li {
+	margin-left: 30px;
+}
+header nav.right ul li a {
+	color: gray;
+}
+header nav.right ul li a.button {
+	color: blue;
+	padding: 15px 25px;
+	border: 1px solid gray;
+	border-radius: 40px;
+}
+#home {
+
+}
+#home div.left {
+	padding-top: 150px;
+	width: 50%;
+	padding-left: 50px;
+}
+#home div.left h1 {
+	font-family: Circular-Std-Bold;
+	font-size: 87px;
+	color: #0a083a;
+	letter-spacing: 0.2px;
+}
+#home div.left p {
+	padding-right: 300px;
+	color: gray;
+	padding-top: 20px;
+	line-height: 25px;
+}
+#home div.left a{
+	display: inline-block;
+	margin: 50px 0;
+	color: #fff;
+	padding: 15px 35px;
+	background: blue;
+	border-radius: 40px;
+}
+#home div.left ul li {
+	color: gray;
+	line-height: 40px;
+}
+#home div.left ul li img {
+	display: inline-block;
+	width: 20px;
+	margin-right: 7px;
+}
+#home div.right {
+	width: 500px;
+	height: 730px;
+	background: lightgray;
+	margin-top: 150px;
+	position: absolute;
+	z-index: -1;
+	right: 0;
+
+
+}
+#home div.right img.mesh {
+	position: relative;
+	z-index: 0;
+	right: -180px;
+	bottom: 240px;
+}
+#home div.right img.girl {
+	position: relative;
+	z-index: 1;
+	right: 150px;
+	bottom: 70px;
+	height: 700px;
+}
+#home div.right div {
+	position: relative;
+	z-index: 2;
+	background: #0a083a;
+	color: #fff;
+	right: 250px;
+	bottom: 488px;
+	width: 370px;
+	padding: 0 40px 30px 40px;
+}
+#home div.right div img {
+	position: relative;
+	z-index: 3;
+	right: 60px;
+	bottom: 30px;
+}
+#home div.right div p {
+
+}
+#home div.right div h6 {
+	margin-top: 20px;
+	font-size: 16px;
+}
+#home div.right div small {
+	font-size: 13px;
+	opacity: 0.8;
+}
